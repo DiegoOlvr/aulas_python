@@ -1,0 +1,88 @@
+{
+    "window.zoomLevel": 0,
+
+    "editor.formatOnSaveMode": "modifications",
+    "editor.fontSize":18,
+    "editor.formatOnSave": true,
+    "editor.formatOnType": true,
+    "editor.cursorBlinking": "expand",
+
+    "code-runner.defaultLanguage": "python",
+    "code-runner.clearPreviousOutput": true,
+    "code-runner.ignoreSelection": false,
+    "code-runner.runInTerminal": true,
+    "code-runner.executorMap": {
+        "python": "clear ; .\\venv\\Scripts\\python.exe"
+    },
+
+    "workbench.colorTheme": "OM Theme (Night Owl Italic)",
+    "workbench.iconTheme": "material-icon-theme",
+    
+    "files.autoSave": "afterDelay",
+    "files.autoSaveDelay": 100,
+    
+    "powermode.shake.enabled": false,
+    "powermode.enabled": true,
+    "powermode.combo.timeout": 2,
+    "powermode.presets": "flames",
+    "powermode.combo.location": "off",
+    "powermode.combo.counterEnabled": "hide",
+
+    "kite.showWelcomeNotificationOnStartup": false,
+
+    "markdown-preview-enhanced.automaticallyShowPreviewOfMarkdownBeingEdited": true,
+
+    "explorer.confirmDelete": false,
+    "explorer.confirmDragAndDrop": false,
+
+    "vsicons.dontShowNewVersionMessage": true,
+
+    "better-comments.tags": [
+
+        {
+            "tag": "!",
+            "color": "#FF2D00", // vermelho
+            "strikethrough": false,
+            "underline": false,
+            "backgroundColor": "transparent",
+            "bold": true,
+            "italic": false
+        },
+        {
+            "tag": "b",
+            "color": "#3498DB", //azul
+            "strikethrough": false,
+            "underline": false,
+            "backgroundColor": "transparent",
+            "bold": true,
+            "italic": false
+        },
+        {
+            "tag": "#",
+            "color": "#ffff00", //amarelo
+            "strikethrough": false,
+            "underline": false,
+            "backgroundColor": "transparent",
+            "bold": true,
+            "italic": false
+        },
+        {
+            "tag": ".",
+            "color": "#FF8C00", // laranja
+            "strikethrough": false,
+            "underline": false,
+            "backgroundColor": "transparent",
+            "bold": true,
+            "italic": false
+        },
+        {
+            "tag": "*",
+            "color": "#008000",// verde
+            "strikethrough": false,
+            "underline": false,
+            "backgroundColor": "transparent",
+            "bold": true,
+            "italic": false
+        }
+    ],
+}
