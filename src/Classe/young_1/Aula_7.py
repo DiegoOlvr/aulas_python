@@ -7,12 +7,12 @@ from time import  sleep
 
 def exercicio1():
     pessoas = dict()
-
+    
     for n in range(0, 4):
         nome = input(f'Digite o nome da {n+1}ª pessoa: ').strip().capitalize()
         caracteristica = input(f'Digite uma característica do(a) {nome}: ')
         pessoas.update({nome: caracteristica})
-
+    
     print('')
     for aluno in pessoas:
         print(f'{aluno} é {pessoas[aluno]}')
@@ -61,7 +61,7 @@ def exercicio6():
     player_cartela = set()
     pc_cartela = set()
     tamanho1 = tamanho2 = cont = 1
-
+    
     while tamanho1 <= 6 and tamanho2 <= 6:
         if len(player_cartela) < 7:
             player_cartela.add(str(randint(1, 60)))
@@ -109,11 +109,13 @@ max(), min(), strip(),
 função é como se fosse uma variável
 ela armazena comandos
 
-toda vez que formos usar uma função, precisa por os parenteses
+toda vez que formos usar uma função, 
+precisa por os parenteses
 nome_da_função()
 
 para criar as nossas funções 
-def = definir, nome da função, () e dentro deles pode ter algo ou não
+def = definir, nome da função, () e 
+dentro deles pode ter algo ou não
 def nome_da_função(parametros*):
 
 '''

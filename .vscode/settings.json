@@ -1,12 +1,15 @@
 {
     "window.zoomLevel": 0,
-
+    
+    "editor.cursorBlinking": "expand",
+    //"editor.fontFamily": "OperatorMono-LightItalic",
+    "editor.fontLigatures": true,
+    "editor.fontFamily": "Fira Code iScript",
     "editor.formatOnSaveMode": "modifications",
     "editor.fontSize":18,
     "editor.formatOnSave": true,
     "editor.formatOnType": true,
-    "editor.cursorBlinking": "expand",
-
+    
     "code-runner.defaultLanguage": "python",
     "code-runner.clearPreviousOutput": true,
     "code-runner.ignoreSelection": false,
@@ -14,7 +17,7 @@
     "code-runner.executorMap": {
         "python": "clear ; .\\venv\\Scripts\\python.exe"
     },
-
+    
     "workbench.colorTheme": "OM Theme (Night Owl Italic)",
     "workbench.iconTheme": "material-icon-theme",
     
