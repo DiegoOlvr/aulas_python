@@ -1,5 +1,5 @@
 {
-    "window.zoomLevel": 0,
+    "window.zoomLevel": -1,
     
     "editor.cursorBlinking": "expand",
     //"editor.fontFamily": "OperatorMono-LightItalic",
@@ -9,6 +9,9 @@
     "editor.fontSize":18,
     "editor.formatOnSave": true,
     "editor.formatOnType": true,
+"python.linting.mypyEnabled": true,
+"python.linting.flake8Enabled": true,
+"python.testing.unittestEnabled": true,
     
     "code-runner.defaultLanguage": "python",
     "code-runner.clearPreviousOutput": true,
@@ -37,8 +40,6 @@
 
     "explorer.confirmDelete": false,
     "explorer.confirmDragAndDrop": false,
-
-    "vsicons.dontShowNewVersionMessage": true,
 
     "better-comments.tags": [
 
