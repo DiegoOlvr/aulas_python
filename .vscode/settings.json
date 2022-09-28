@@ -1,18 +1,17 @@
 {
-    "window.zoomLevel": -1,
+    "window.zoomLevel": 0,
     
     "editor.cursorBlinking": "expand",
     //"editor.fontFamily": "OperatorMono-LightItalic",
     "editor.fontLigatures": true,
     "editor.fontFamily": "Fira Code iScript",
     "editor.formatOnSaveMode": "modifications",
-    "editor.fontSize":18,
+    "editor.fontSize": 22,
     "editor.formatOnSave": true,
     "editor.formatOnType": true,
-"python.linting.mypyEnabled": true,
-"python.linting.flake8Enabled": true,
-"python.testing.unittestEnabled": true,
-    
+    "python.linting.mypyEnabled": true,
+    "python.linting.flake8Enabled": true,
+    "python.testing.unittestEnabled": true,
     "code-runner.defaultLanguage": "python",
     "code-runner.clearPreviousOutput": true,
     "code-runner.ignoreSelection": false,
