@@ -11,8 +11,8 @@ def exercicio_1():
     for n in range(0, 5):
         nome = str(input('Digite o nome da pessoa: ')).strip().capitalize()
         caracteristica = str(
-            input(f'''
-            Digite uma característica para {nome}: ''')).strip().capitalize()
+            input(f'Digite uma característica para {nome}: ')
+            ).strip().capitalize()
         alunos.update({nome: caracteristica})
 
     print('')
@@ -69,8 +69,8 @@ def exercicio_4():
     qtd = 2
 
     for n in range(0, qtd):
-        nome = str
-        (input('Digite primeiro nome da pessoa: ')).strip().capitalize()
+        nome = str(
+            input('Digite primeiro nome da pessoa: ')).strip().capitalize()
         ano_nasc = int(input('Digite o ano de nascimento: '))
         hoje = datetime.now().year
         idade = hoje - ano_nasc
@@ -104,7 +104,8 @@ def exercicio_4():
         if cadastro[pessoa][2] == 'S':
             print(f'Sua carteira é: {cadastro[pessoa][3]}')
             print(
-                f'''Foi contratado em {cadastro[pessoa][5]}
+                f'''
+                Foi contratado em {cadastro[pessoa][5]}
                 com um salário de R${cadastro[pessoa][4]:.2f}''')
             aposentar = cadastro[pessoa][1] + \
                 (cadastro[pessoa][5] + 35 - datetime.now().year)
@@ -124,9 +125,8 @@ def exercicio_5():
 
     for aluno in range(qtd_alunos):
         nome = str(
-            input(
-                f'\nDigite o nome da {aluno+1}ª pessoa: ')
-                ).strip().capitalize()
+            input(f'\nDigite o nome da {aluno+1}ª pessoa: ')
+            ).strip().capitalize()
         qtd_series = int(input(f'De quantas séries {nome} gosta: '))
 
         for obra in range(qtd_series):
@@ -156,7 +156,8 @@ def exercicio_5():
                 if series_em_comum:
                     pessoa_em_comum.append(chave)
         if series_em_comum:
-            print(f'{key} tem {series_em_comum} em comum: {pessoa_em_comum}')
+            print(
+                f'{key} tem {series_em_comum} em comum com {pessoa_em_comum}')
             pessoa_em_comum.clear()
             series_em_comum.clear()
 
@@ -259,8 +260,8 @@ def exercicio_8():
                 \n[4] Todas as notas
                 \n[5] Resultado
                 \n[6] Próximo aluno(a)
-                \n[7] Encerrar
-                \nOPÇÃO: '''))
+                \n[7] Encerrar\nOPÇÃO:
+                '''))
 
             if menu == 1:
                 print(f'A maior nota do {nome} foi: {maior(notas_finais)}')
