@@ -6,7 +6,7 @@
     "editor.fontLigatures": true,
     "editor.fontFamily": "Fira Code iScript",
     "editor.formatOnSaveMode": "modifications",
-    "editor.fontSize": 22,
+    "editor.fontSize": 20,
     "editor.formatOnSave": true,
     "editor.formatOnType": true,
     "python.linting.mypyEnabled": true,

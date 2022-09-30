@@ -1,1 +1,1 @@
- print(item)
+print(multiplicar(2, 5))
