@@ -1,7 +1,7 @@
 
 Desenvolver um programa que irá gerenciar um arquivo, a intenção dele é simular um app de lista de tarefas, ex: To Do.
 
-Esse programa deve se comportar como uma lista de mercado, sou seja, se preocupem apenas em armazenar o item que precisa comprar ex:
+Esse programa deve se comportar como uma lista de mercado, ou seja, se preocupem apenas em armazenar o item que precisa comprar ex:
   =================================
           Lista do Diego
   Criada em: 30 de Setembro de 2022
