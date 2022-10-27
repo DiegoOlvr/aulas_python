@@ -64,14 +64,13 @@ def remover_item(nome_do_arquivo: str, item: str):
     with open(nome_do_arquivo, 'r') as arquivo:
         for linha in arquivo:
             itens_do_arquivo.append(linha)
-        print('itens do arquivo', itens_do_arquivo)
         if item in itens_do_arquivo:
             itens_do_arquivo.remove(item)
             print(f'{item}', end='')
             print('foi removido com sucesso!')
             with open(nome_do_arquivo, 'w+') as file:
                 for linha in itens_do_arquivo:
-                    file.write(f'{linha}\n')
+                    file.write(f'{linha}')
         else:
             print('Não há esse item na lista!')
 
