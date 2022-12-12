@@ -34,6 +34,7 @@ def pegar_cotacao(moeda: str):
     return valor
 
 
-coin = input('Digite o cod da moeda: ').upper()
-resultado = pegar_cotacao(coin)
-print(resultado)
+if __name__ == '__main__':
+    coin = input('Digite o cod da moeda: ').upper()
+    resultado = pegar_cotacao(coin)
+    print(resultado)
